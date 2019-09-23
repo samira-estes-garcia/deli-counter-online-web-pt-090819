@@ -3,6 +3,9 @@
 def line(arr)
   if arr.length > 0
     new_array = []
+    #arr.map.with_index same structure 
+    #arr.collect
+    #don't need to create new array
     arr.each.with_index(1) do |name, index|
       new_array.push("#{index}. #{name}")
     end
